@@ -1,0 +1,35 @@
+# Blender MTL File: 'baked01.blend'
+# Material Count: 3
+
+newmtl Material.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.558836 0.577740
+Ks 0.000000 0.000000 0.000000
+Ke 0.800000 0.558836 0.577740
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Nicola06_Body01_Textured03_Girl_PJ01.png
+
+newmtl Material.002_Material_Diffuse_Color.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.558836 0.577740
+Ks 0.000000 0.000000 0.000000
+Ke 0.800000 0.558836 0.577740
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Nicola06_Body01_Textured03_Girl_PJ01.png
+
+newmtl Material.002_quad
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.558836 0.577740
+Ks 0.000000 0.000000 0.000000
+Ke 0.800000 0.558836 0.577740
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Nicola06_Body01_Textured03_Girl_PJ01.png

@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Hello360</title>
+    <style>body { margin: 0; }</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <!-- Attachment point for your app -->
+	<div>		
+		<div>
+			<span id="container"></span>
+		</div>
+	</div>
+    <script src="./client.bundle.js?platform=vr"></script>
+    <script>
+      // Initialize the React 360 application
+      React360.init(
+        'index.bundle.js?platform=vr&dev=true',
+        document.getElementById('container'),
+        {
+          assetRoot: 'static_assets/',
+        }
+      );
+    </script>
+	<script>
+	// self executing function here
+	(function() {
+	   // your page initialization code here
+	   // the DOM will be available here
+		console.log("LOADED!");
+	})();
+	</script>
+  </body>
+</html>
+
